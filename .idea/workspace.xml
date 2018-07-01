@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40a75c5f-f771-4f78-b1d7-5bc6532bc7df" name="Default" comment="midterm stuff">
-      <change afterPath="$PROJECT_DIR$/PS3/ps3b.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MITx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MITx.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="40a75c5f-f771-4f78-b1d7-5bc6532bc7df" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/PSMidFin/bye.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PS1/powerSet.py" beforeDir="false" afterPath="$PROJECT_DIR$/PS1/powerSet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS3/ps3b.py" beforeDir="false" afterPath="$PROJECT_DIR$/PS3/ps3b.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,13 +16,20 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/MITx$testing.coverage" NAME="testing Coverage Results" MODIFIED="1530158615327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PS2" />
     <SUITE FILE_PATH="coverage/MITx$Unnamed.coverage" NAME="testing Coverage Results" MODIFIED="1529527030602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MITx$bye.coverage" NAME="bye Coverage Results" MODIFIED="1530483276357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PSMidFin" />
+    <SUITE FILE_PATH="coverage/MITx$ps3b.coverage" NAME="ps3b Coverage Results" MODIFIED="1530246618486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PS3" />
     <SUITE FILE_PATH="coverage/MITx$ps2.coverage" NAME="ps2 Coverage Results" MODIFIED="1530136402672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PS2" />
+    <SUITE FILE_PATH="coverage/MITx$ps4.coverage" NAME="ps4 Coverage Results" MODIFIED="1530478395860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PS4" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ps3b.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PS3/ps3b.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="bye.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PSMidFin/bye.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="69" lean-forward="true" selection-start-line="55" selection-end-line="69" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -39,6 +44,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>list(</find>
+      <find>boston</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -59,6 +65,9 @@
         <option value="$PROJECT_DIR$/PS1/ps1_partition.py" />
         <option value="$PROJECT_DIR$/PS1/ps1.py" />
         <option value="$PROJECT_DIR$/PS2/ps2.py" />
+        <option value="$PROJECT_DIR$/PS3/ps3b.py" />
+        <option value="$PROJECT_DIR$/PS4/ps4.py" />
+        <option value="$PROJECT_DIR$/PSMidFin/bye.py" />
       </list>
     </option>
   </component>
@@ -80,7 +89,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -91,12 +99,13 @@
             <path>
               <item name="MITx" type="b2602c69:ProjectViewProjectNode" />
               <item name="MITx" type="462c0819:PsiDirectoryNode" />
-              <item name="PS3" type="462c0819:PsiDirectoryNode" />
+              <item name="PSMidFin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -123,7 +132,64 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.bye">
+    <configuration name="bye" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MITx" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PSMidFin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PSMidFin/bye.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="ps3b" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MITx" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PS3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PS3/ps3b.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="ps4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MITx" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PS4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PS4/ps4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="testing" type="PythonConfigurationType" factoryName="Python">
       <module name="MITx" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,6 +209,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <list>
+      <item itemvalue="Python.testing" />
+      <item itemvalue="Python.ps3b" />
+      <item itemvalue="Python.ps4" />
+      <item itemvalue="Python.bye" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.bye" />
+        <item itemvalue="Python.ps4" />
+        <item itemvalue="Python.ps3b" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -169,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529601217445</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ps2 and 3">
+      <created>1530219570676</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1530219570676</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -177,19 +263,19 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50045663" side_tool="true" weight="0.37020907" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3292683" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37020907" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49954337" visible="true" weight="0.37020907" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2015625" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3004695" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.33541667" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.413928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39982578" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -199,10 +285,9 @@
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37020907" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20208333" />
@@ -210,7 +295,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37020907" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="11" />
@@ -231,7 +317,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pset5" />
     <MESSAGE value="midterm stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="midterm stuff" />
+    <MESSAGE value="ps2 and 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="ps2 and 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -260,11 +347,53 @@
           <line>158</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PS3/ps3b.py</url>
+          <line>269</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PS3/ps3b.py</url>
+          <line>211</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PS3/ps3b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2880">
+          <caret line="198" column="4" lean-forward="true" selection-start-line="198" selection-start-column="4" selection-end-line="198" selection-end-column="4" />
+          <folding>
+            <element signature="e#82#95#0" expanded="true" />
+            <element signature="e#177#433#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS4/ps4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3195">
+          <caret line="215" column="8" lean-forward="true" selection-start-line="215" selection-start-column="8" selection-end-line="215" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS3/ps3b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="e#82#95#0" expanded="true" />
+            <element signature="e#177#433#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PS2/ps2_visualize.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -406,7 +535,39 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PS3/ps3b.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2880">
+          <caret line="198" column="4" selection-start-line="198" selection-start-column="4" selection-end-line="198" selection-end-column="4" />
+          <folding>
+            <element signature="e#82#95#0" expanded="true" />
+            <element signature="e#177#433#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS4/data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="281233" column="6" selection-start-line="281233" selection-end-line="281233" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS4/ps4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="215" column="8" selection-start-line="215" selection-start-column="8" selection-end-line="215" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PSMidFin/bye.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="69" lean-forward="true" selection-start-line="55" selection-end-line="69" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
